@@ -670,35 +670,35 @@
     AppRouter = Backbone.Router.extend({
 
         routes: {
-            '' : 'start',
-            '/' : 'start',
+            'Office-Overtime' : 'start',
+            '/Office-Overtime' : 'start',
 
             // timesheet pages
-            "weeks": "timesheets",
-            "/weeks": "timesheets",
-            "timesheets": "timesheets",
-            "/timesheets": "timesheets",
-            "week/:weekNum": "timesheetsWeek",
-            "/week/:weekNum": "timesheetsWeek",
-            "week/:weekNum/day/:dayNum": "timesheetsDay",
-            "/week/:weekNum/day/:dayNum": "timesheetsDay",
-            "week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
-            "/week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
+            "Office-Overtime/weeks": "timesheets",
+            "/Office-Overtime/weeks": "timesheets",
+            "Office-Overtime/timesheets": "timesheets",
+            "/Office-Overtime/timesheets": "timesheets",
+            "Office-Overtime/week/:weekNum": "timesheetsWeek",
+            "/Office-Overtime/week/:weekNum": "timesheetsWeek",
+            "Office-Overtime/week/:weekNum/day/:dayNum": "timesheetsDay",
+            "/Office-Overtime/week/:weekNum/day/:dayNum": "timesheetsDay",
+            "Office-Overtime/week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
+            "/Office-Overtime/week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
 
             // offices pages
-            "offices": "offices",
-            "/offices": "offices",
-            "/offices/edit/:officeNum": "officeEdit",
-            "offices/edit/:officeNum": "officeEdit",
+            "Office-Overtime/offices": "offices",
+            "/Office-Overtime/offices": "offices",
+            "/Office-Overtime/offices/edit/:officeNum": "officeEdit",
+            "Office-Overtime/offices/edit/:officeNum": "officeEdit",
 
-            "/page/:id": "page",
-            "page/:id": "page",
+            "/Office-Overtime/page/:id": "page",
+            "Office-Overtime/page/:id": "page",
 
             // general pages
-            "help": "help",
-            "/help": "help",
-            "settings": "settings",
-            "/settings": "settings"
+            "Office-Overtime/help": "help",
+            "/Office-Overtime/help": "help",
+            "Office-Overtime/settings": "settings",
+            "/Office-Overtime/settings": "settings"
         },
 
         initialize: function (options) {
