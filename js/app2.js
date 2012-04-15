@@ -1250,7 +1250,7 @@
 
     appRouter = new AppRouter();
     Backbone.history.start({
-        pushState: true,
+        pushState: false,
         root: "/Office-Overtime/"
     });
 
