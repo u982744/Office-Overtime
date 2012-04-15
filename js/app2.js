@@ -670,8 +670,12 @@
     AppRouter = Backbone.Router.extend({
 
         routes: {
+            '' : 'start',
+            '/' : 'start',
             'Office-Overtime' : 'start',
             '/Office-Overtime' : 'start',
+            'Office-Overtime/' : 'start',
+            '/Office-Overtime/' : 'start',
 
             // timesheet pages
             "Office-Overtime/weeks": "timesheets",
