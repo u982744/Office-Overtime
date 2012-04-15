@@ -672,37 +672,33 @@
         routes: {
             '' : 'start',
             '/' : 'start',
-            'Office-Overtime' : 'start',
-            '/Office-Overtime' : 'start',
-            'Office-Overtime/' : 'start',
-            '/Office-Overtime/' : 'start',
 
             // timesheet pages
-            "Office-Overtime/weeks": "timesheets",
-            "/Office-Overtime/weeks": "timesheets",
-            "Office-Overtime/timesheets": "timesheets",
-            "/Office-Overtime/timesheets": "timesheets",
-            "Office-Overtime/week/:weekNum": "timesheetsWeek",
-            "/Office-Overtime/week/:weekNum": "timesheetsWeek",
-            "Office-Overtime/week/:weekNum/day/:dayNum": "timesheetsDay",
-            "/Office-Overtime/week/:weekNum/day/:dayNum": "timesheetsDay",
-            "Office-Overtime/week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
-            "/Office-Overtime/week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
+            "weeks": "timesheets",
+            "/weeks": "timesheets",
+            "timesheets": "timesheets",
+            "/timesheets": "timesheets",
+            "week/:weekNum": "timesheetsWeek",
+            "/week/:weekNum": "timesheetsWeek",
+            "week/:weekNum/day/:dayNum": "timesheetsDay",
+            "/week/:weekNum/day/:dayNum": "timesheetsDay",
+            "week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
+            "/week/:weekNum/day/:dayNum/item/:itemNum": "timesheetsItem",
 
             // offices pages
-            "Office-Overtime/offices": "offices",
-            "/Office-Overtime/offices": "offices",
-            "/Office-Overtime/offices/edit/:officeNum": "officeEdit",
-            "Office-Overtime/offices/edit/:officeNum": "officeEdit",
+            "offices": "offices",
+            "/offices": "offices",
+            "/offices/edit/:officeNum": "officeEdit",
+            "offices/edit/:officeNum": "officeEdit",
 
-            "/Office-Overtime/page/:id": "page",
-            "Office-Overtime/page/:id": "page",
+            "/page/:id": "page",
+            "page/:id": "page",
 
             // general pages
-            "Office-Overtime/help": "help",
-            "/Office-Overtime/help": "help",
-            "Office-Overtime/settings": "settings",
-            "/Office-Overtime/settings": "settings"
+            "help": "help",
+            "/help": "help",
+            "settings": "settings",
+            "/settings": "settings"
         },
 
         initialize: function (options) {
@@ -758,7 +754,6 @@
         },
 
         start: function () {
-            console.log("AppRouter start method fired...", this);
             var start = appView.model.get("userSettingsModel").get("start");
             this.page(start);
         },
@@ -1254,6 +1249,9 @@
     });
 
     appRouter = new AppRouter();
-    Backbone.history.start({pushState: true});
+    Backbone.history.start({
+        pushState: true,
+        root: "/Office-Overtime/"
+    });
 
 }(jQuery));
