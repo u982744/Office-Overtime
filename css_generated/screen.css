@@ -291,19 +291,19 @@ footer li a {
 
 /* line 19, ../sass/_sprite.scss */
 footer.timesheets-footer-bg {
-  background: url(/img/timesheets/footer-bg.png) repeat-x 0 0;
+  background: url(/Office-Overtime/img/timesheets/footer-bg.png) repeat-x 0 0;
   background-size: auto 50px;
 }
 
 /* line 24, ../sass/_sprite.scss */
 header.timesheets-header-bg {
-  background: url(/img/timesheets/header-bg.png) repeat-x 0 0;
+  background: url(/Office-Overtime/img/timesheets/header-bg.png) repeat-x 0 0;
   background-size: auto 44px;
 }
 
 /* line 29, ../sass/_sprite.scss */
 section .row a {
-  background: url(/img/timesheets/icon-arrow.png) no-repeat right 6px;
+  background: url(/Office-Overtime/img/timesheets/icon-arrow.png) no-repeat right 6px;
   background-size: auto 32px;
   padding: 12px 30px 12px 12px;
   position: relative;
@@ -316,7 +316,7 @@ section#offices .row a {
 
 /* line 38, ../sass/_sprite.scss */
 section .row a .icon-office {
-  background: url(/img/timesheets/icon-office.png) no-repeat 5px 0;
+  background: url(/Office-Overtime/img/timesheets/icon-office.png) no-repeat 5px 0;
   background-size: auto 45px;
   position: absolute;
   top: 0;
@@ -328,46 +328,46 @@ section .row a .icon-office {
 
 /* line 50, ../sass/_sprite.scss */
 footer li a.timesheets-icon-timesheets {
-  background: url(/img/timesheets/icon-timesheets.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-timesheets.png) no-repeat 0 0;
 }
 
 /* line 53, ../sass/_sprite.scss */
 footer li a.timesheets-icon-offices {
-  background: url(/img/timesheets/icon-offices.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-offices.png) no-repeat 0 0;
 }
 
 /* line 56, ../sass/_sprite.scss */
 footer li a.timesheets-icon-help {
-  background: url(/img/timesheets/icon-help.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-help.png) no-repeat 0 0;
 }
 
 /* line 59, ../sass/_sprite.scss */
 footer li a.timesheets-icon-settings {
-  background: url(/img/timesheets/icon-settings.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-settings.png) no-repeat 0 0;
 }
 
 /* line 64, ../sass/_sprite.scss */
 footer li a.timesheets-icon-timesheets.active,
 footer li a.timesheets-icon-timesheets.touchstart {
-  background: url(/img/timesheets/icon-timesheets_active.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-timesheets_active.png) no-repeat 0 0;
 }
 
 /* line 68, ../sass/_sprite.scss */
 footer li a.timesheets-icon-offices.active,
 footer li a.timesheets-icon-offices.touchstart {
-  background: url(/img/timesheets/icon-offices_active.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-offices_active.png) no-repeat 0 0;
 }
 
 /* line 72, ../sass/_sprite.scss */
 footer li a.timesheets-icon-help.active,
 footer li a.timesheets-icon-help.touchstart {
-  background: url(/img/timesheets/icon-help_active.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-help_active.png) no-repeat 0 0;
 }
 
 /* line 76, ../sass/_sprite.scss */
 footer li a.timesheets-icon-settings.active,
 footer li a.timesheets-icon-settings.touchstart {
-  background: url(/img/timesheets/icon-settings_active.png) no-repeat 0 0;
+  background: url(/Office-Overtime/img/timesheets/icon-settings_active.png) no-repeat 0 0;
 }
 
 /* buttons */
