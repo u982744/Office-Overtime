@@ -758,6 +758,7 @@
         },
 
         start: function () {
+            console.log("AppRouter start method fired...", this);
             var start = appView.model.get("userSettingsModel").get("start");
             this.page(start);
         },
